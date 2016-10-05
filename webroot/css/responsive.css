@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  .portfolio-item .card {
+    /*height: 380px;/**/
+  }
+}

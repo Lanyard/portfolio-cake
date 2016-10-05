@@ -50,6 +50,10 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
+    $routes->connect('/demo/fordschool/map', ['controller' => 'Pages', 'action' => 'display', 'fordschool-map']);
+
+    //$routes->connect('/webroot/demo/fordschool/map', ['controller' => 'Pages', 'action' => 'display', 'fordschool-map']);
+
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */

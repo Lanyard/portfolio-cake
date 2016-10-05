@@ -20,6 +20,7 @@ class ProjectsController extends AppController
     {
         $projects = $this->paginate($this->Projects);
 
+        $this->set('css', 'Bootstrap.3-col-portfolio');
         $this->set(compact('projects'));
         $this->set('_serialize', ['projects']);
     }
